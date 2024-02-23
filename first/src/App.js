@@ -17,6 +17,7 @@ const App = () => {
     <div>
       {func()}
       <button onClick={()=>setcount(count+1)}>+</button>
+      <button onClick={()=>setcount(count+1)}>+</button>
     </div>
   );
 };
